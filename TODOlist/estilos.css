@@ -1,0 +1,106 @@
+
+body {
+  font-family: verdana, geneva, serif;
+  background-color:rgb(139, 26, 26);
+}
+
+
+div.contenedor {
+  background-color:white;
+ align-content: center center;
+
+}
+/** Navegacion **/
+
+.navegacion {
+  background-color: #880000;
+}
+
+nav {
+  
+  height: 20px;
+  margin: 0 auto;
+  position: relative;
+}
+.contenido{
+  display: flex;
+  flex-direction: row;
+}
+/** Contenido Principal **/
+div.contenido {
+  content: '';
+  display: flex;
+
+  flex-direction: column;
+  
+  background-color:black;
+}
+
+main {
+  width: 100%;
+  float: left;
+
+}
+/** Entradas de post**/
+
+.formulario{
+ background-color: black;
+ align-items: center;
+ padding-left: 10rem;
+ padding-top: 3rem;
+ padding-bottom: 5rem;
+}
+
+.lista{
+  padding-top: 2rem;
+  margin-left: 2rem;
+  background-color: black;
+  background-image: url("img/hoja.png");
+  background-size: cover;
+    background-position: center center ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    
+
+}
+.lista dt{
+  margin-left: 10rem;
+  margin-bottom:1rem; 
+  font-size: 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  position: relative;
+  padding: 10px;
+  background:rgba(247, 252, 179,0.01);
+  width: 20rem;
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+ 
+}
+
+input[type=button], input[type=submit], input[type=reset]  {
+  background-color: rgb(138, 5, 0);
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+input[type=button] :hover{
+  background-color: #bbb;
+}
+
+input[type=checkbox]{
+  transform: scale(2);
+  margin-right: 50px;
+}
+
+

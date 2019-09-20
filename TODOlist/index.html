@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>TO DO </title>
+    <link rel="stylesheet" href="estilos.css">
+  </head>
+  <body>
+
+    <header>
+        <div class="contenedor">
+            <div class="logo">
+                <img id="logo" src="img/logo.jpg" alt="logo to do list" height="300px" class= "img">
+            </div>
+        </div> <!--.contenedor-->
+    </header>
+      
+    <div id="navegacion" class="navegacion">
+            <nav class="menu">
+              
+            </nav>
+      </div>
+
+    <div class="contenido contenedor">
+        <main>
+            <div class="formulario">
+                <input type="text" id="txtinput" placeholder= "TO DO..." onfocus="this.value=''">
+                <input type="button" id="taretxt" value="Add" onclick="addItem()">
+                <input type="button" id="erase" value="Erase" onclick="remove()">
+                <input type="button" id="modify" value="Modify" onclick="modify()">
+            </div>
+           
+        </main>
+
+        
+        <dl id="lista" class="lista">
+
+        </dl>
+
+    </div> <!--.contenido-->
+
+
+      
+      
+      <script src="jquery-1.12.0.min.js"></script>
+      <script src="script.js"></script>
+
+  </body>
+</html>
